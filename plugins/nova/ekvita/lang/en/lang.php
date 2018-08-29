@@ -22,6 +22,8 @@
         'projectsinvolved' => 'Manage Projects Involved',
         'manage_news' => 'News',
         'event' => 'Manage Event',
+        'service_category' => 'Manage Service Category',
+        'manage_service' => 'Service',
     ],
     'menu' => [
         'ekvita' => 'Ekvita',
@@ -32,6 +34,7 @@
         'projectsinvolved' => 'Projects Involved',
         'news' => 'News',
         'event' => 'Event',
+        'service' => 'Service',
     ],
     'standard' => [
         'name' => 'Name',
@@ -66,5 +69,18 @@
         'location' => 'Location',
         'organized_date' => 'Organized Date',
         'content' => 'Content',
+    ],
+    'service_category' => [
+        'name' => 'Name',
+        'description' => 'Description',
+        'color_code' => 'Color Code',
+        'icon' => 'Icon',
+        'banner' => 'Banner',
+    ],
+    'service' => [
+        'title' => 'Title',
+        'category' => 'Category',
+        'content' => 'Content',
+        'icon' => 'Icon',
     ],
 ];

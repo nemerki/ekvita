@@ -1,0 +1,10 @@
+name: ServiceController
+form: $/nova/ekvita/models/service/fields.yaml
+modelClass: Nova\Ekvita\Models\Service
+defaultRedirect: nova/ekvita/servicecontroller
+create:
+    redirect: 'nova/ekvita/servicecontroller/update/:id'
+    redirectClose: nova/ekvita/servicecontroller
+update:
+    redirect: nova/ekvita/servicecontroller
+    redirectClose: nova/ekvita/servicecontroller

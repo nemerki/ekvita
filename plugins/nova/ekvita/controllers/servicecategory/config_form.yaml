@@ -1,0 +1,10 @@
+name: ServiceCategory
+form: $/nova/ekvita/models/servicecategory/fields.yaml
+modelClass: Nova\Ekvita\Models\ServiceCategory
+defaultRedirect: nova/ekvita/servicecategory
+create:
+    redirect: 'nova/ekvita/servicecategory/update/:id'
+    redirectClose: nova/ekvita/servicecategory
+update:
+    redirect: nova/ekvita/servicecategory
+    redirectClose: nova/ekvita/servicecategory

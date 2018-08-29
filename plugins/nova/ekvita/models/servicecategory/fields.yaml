@@ -1,0 +1,37 @@
+fields:
+    is_active:
+        label: 'nova.ekvita::lang.all.status'
+        span: full
+        default: 1
+        type: switch
+    name:
+        label: 'nova.ekvita::lang.service_category.name'
+        span: full
+        type: text
+    description:
+        label: 'nova.ekvita::lang.service_category.description'
+        span: full
+        type: text
+    color_code:
+        label: 'nova.ekvita::lang.service_category.color_code'
+        span: full
+        type: text
+        comment: 'Hex Code Example: #RRGGBB'
+    icon:
+        label: 'nova.ekvita::lang.service_category.icon'
+        mode: image
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: full
+        type: fileupload
+    banner:
+        label: 'nova.ekvita::lang.service_category.banner'
+        mode: image
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: full
+        type: fileupload

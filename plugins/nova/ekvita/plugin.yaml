@@ -29,6 +29,12 @@ permissions:
     manage_event:
         tab: 'nova.ekvita::lang.permissions.ekvita'
         label: 'nova.ekvita::lang.permissions.event'
+    manage_service_category:
+        tab: 'nova.ekvita::lang.permissions.ekvita'
+        label: 'nova.ekvita::lang.permissions.service_category'
+    manage_service:
+        tab: 'nova.ekvita::lang.permissions.ekvita'
+        label: 'nova.ekvita::lang.permissions.manage_service'
 navigation:
     main-menu-item:
         label: 'nova.ekvita::lang.menu.ekvita'
@@ -79,3 +85,9 @@ navigation:
                 icon: icon-connectdevelop
                 permissions:
                     - manage_event
+            side-menu-item8:
+                label: 'nova.ekvita::lang.menu.service'
+                url: nova/ekvita/servicecontroller
+                icon: icon-briefcase
+                permissions:
+                    - manage_service

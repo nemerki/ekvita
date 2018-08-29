@@ -33,3 +33,9 @@
 1.0.12:
     - 'Created table nova_ekvita_events'
     - builder_table_create_nova_ekvita_events.php
+1.0.13:
+    - 'Created table nova_ekvita_service_categories'
+    - builder_table_create_nova_ekvita_service_categories.php
+1.0.14:
+    - 'Created table nova_ekvita_services'
+    - builder_table_create_nova_ekvita_services.php

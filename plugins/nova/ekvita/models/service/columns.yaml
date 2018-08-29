@@ -1,0 +1,11 @@
+columns:
+    title:
+        label: 'nova.ekvita::lang.service.title'
+        type: text
+        searchable: true
+        sortable: true
+    category:
+        label: 'nova.ekvita::lang.service.category'
+        type: text
+        searchable: true
+        sortable: true
