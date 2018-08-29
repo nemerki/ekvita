@@ -1,0 +1,16 @@
+columns:
+    title:
+        label: 'nova.ekvita::lang.event.title'
+        type: text
+        searchable: true
+        sortable: true
+    organized_date:
+        label: 'nova.ekvita::lang.event.organized_date'
+        type: text
+        searchable: true
+        sortable: true
+    location:
+        label: 'nova.ekvita::lang.event.location'
+        type: text
+        searchable: true
+        sortable: true

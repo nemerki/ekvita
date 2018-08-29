@@ -1,0 +1,10 @@
+fields:
+    is_active:
+        label: 'nova.ekvita::lang.all.status'
+        span: full
+        default: 1
+        type: switch
+    name:
+        label: 'nova.ekvita::lang.news_category.name'
+        span: full
+        type: text

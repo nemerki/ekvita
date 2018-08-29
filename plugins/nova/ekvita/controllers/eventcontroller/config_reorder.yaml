@@ -1,0 +1,5 @@
+title: EventController
+modelClass: Nova\Ekvita\Models\Event
+nameFrom: title
+toolbar:
+    buttons: reorder_toolbar

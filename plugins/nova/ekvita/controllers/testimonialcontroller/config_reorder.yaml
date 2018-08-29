@@ -1,0 +1,5 @@
+title: TestimonialController
+modelClass: Nova\Ekvita\Models\Testimonial
+nameFrom: company
+toolbar:
+    buttons: reorder_toolbar

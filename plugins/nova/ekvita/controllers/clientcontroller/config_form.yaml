@@ -1,0 +1,10 @@
+name: ClientController
+form: $/nova/ekvita/models/client/fields.yaml
+modelClass: Nova\Ekvita\Models\Client
+defaultRedirect: nova/ekvita/clientcontroller
+create:
+    redirect: 'nova/ekvita/clientcontroller/update/:id'
+    redirectClose: nova/ekvita/clientcontroller
+update:
+    redirect: nova/ekvita/clientcontroller
+    redirectClose: nova/ekvita/clientcontroller

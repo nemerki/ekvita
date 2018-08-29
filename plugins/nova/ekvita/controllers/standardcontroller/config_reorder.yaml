@@ -1,0 +1,5 @@
+title: StandardController
+modelClass: Nova\Ekvita\Models\Standard
+nameFrom: name
+toolbar:
+    buttons: reorder_toolbar

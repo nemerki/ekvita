@@ -1,0 +1,10 @@
+columns:
+    name:
+        label: 'nova.ekvita::lang.standard.name'
+        type: text
+        searchable: true
+        sortable: true
+    logo:
+        label: 'nova.ekvita::lang.standard.logo'
+        type: partial
+        path: ~/plugins/nova/ekvita/models/standard/_logo_column.htm

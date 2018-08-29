@@ -1,0 +1,16 @@
+columns:
+    company:
+        label: 'nova.ekvita::lang.testimonial.company'
+        type: text
+        searchable: true
+        sortable: true
+    name:
+        label: 'nova.ekvita::lang.testimonial.name'
+        type: text
+        searchable: true
+        sortable: true
+    content:
+        label: 'nova.ekvita::lang.testimonial.content'
+        type: text
+        searchable: true
+        sortable: true

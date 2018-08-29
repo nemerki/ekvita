@@ -1,0 +1,29 @@
+fields:
+    is_active:
+        label: 'nova.ekvita::lang.all.status'
+        span: auto
+        default: 1
+        type: switch
+    is_home:
+        label: 'nova.ekvita::lang.all.home'
+        span: auto
+        type: switch
+    title:
+        label: 'nova.ekvita::lang.event.title'
+        span: full
+        type: text
+    location:
+        label: 'nova.ekvita::lang.event.location'
+        span: full
+        type: text
+    organized_date:
+        label: 'nova.ekvita::lang.event.organized_date'
+        mode: datetime
+        span: full
+        required: 0
+        type: datepicker
+    content:
+        label: 'nova.ekvita::lang.event.content'
+        span: full
+        size: ''
+        type: richeditor

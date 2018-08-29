@@ -1,0 +1,5 @@
+title: SliderController
+modelClass: Nova\Ekvita\Models\Slider
+nameFrom: title
+toolbar:
+    buttons: reorder_toolbar

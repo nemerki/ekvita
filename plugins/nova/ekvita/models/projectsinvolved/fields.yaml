@@ -1,0 +1,19 @@
+fields:
+    is_active:
+        label: 'nova.ekvita::lang.all.status'
+        span: full
+        default: 1
+        type: switch
+    title:
+        label: 'nova.ekvita::lang.projects_involved.title'
+        span: full
+        type: text
+    image:
+        label: 'nova.ekvita::lang.projects_involved.image'
+        mode: image
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: full
+        type: fileupload

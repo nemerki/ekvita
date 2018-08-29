@@ -1,0 +1,81 @@
+plugin:
+    name: 'nova.ekvita::lang.plugin.name'
+    description: 'nova.ekvita::lang.plugin.description'
+    author: Nova
+    icon: oc-icon-adjust
+    homepage: ''
+permissions:
+    manage_slider:
+        tab: 'nova.ekvita::lang.permissions.ekvita'
+        label: 'nova.ekvita::lang.permissions.manage_slider'
+    manage_ekvita:
+        tab: 'nova.ekvita::lang.permissions.ekvita'
+        label: 'nova.ekvita::lang.permissions.ekvita_menu'
+    manage_standard:
+        tab: 'nova.ekvita::lang.permissions.ekvita'
+        label: 'nova.ekvita::lang.permissions.manage_standard'
+    manage_testimonial:
+        tab: 'nova.ekvita::lang.permissions.ekvita'
+        label: 'nova.ekvita::lang.permissions.manage_testimonial'
+    manage_client:
+        tab: 'nova.ekvita::lang.permissions.ekvita'
+        label: 'nova.ekvita::lang.permissions.manage_client'
+    manage_projectsinvolved:
+        tab: 'nova.ekvita::lang.permissions.ekvita'
+        label: 'nova.ekvita::lang.permissions.projectsinvolved'
+    manage_news:
+        tab: 'nova.ekvita::lang.permissions.ekvita'
+        label: 'nova.ekvita::lang.permissions.manage_news'
+    manage_event:
+        tab: 'nova.ekvita::lang.permissions.ekvita'
+        label: 'nova.ekvita::lang.permissions.event'
+navigation:
+    main-menu-item:
+        label: 'nova.ekvita::lang.menu.ekvita'
+        url: nova/ekvita/slidercontroller
+        icon: icon-university
+        permissions:
+            - manage_ekvita
+        sideMenu:
+            side-menu-item:
+                label: 'nova.ekvita::lang.menu.slider'
+                url: nova/ekvita/slidercontroller
+                icon: icon-sliders
+                permissions:
+                    - manage_slider
+            side-menu-item2:
+                label: 'nova.ekvita::lang.menu.standard'
+                url: nova/ekvita/standardcontroller
+                icon: icon-asterisk
+                permissions:
+                    - manage_standard
+            side-menu-item3:
+                label: 'nova.ekvita::lang.menu.testimonial'
+                url: nova/ekvita/testimonialcontroller
+                icon: icon-smile-o
+                permissions:
+                    - manage_testimonial
+            side-menu-item4:
+                label: 'nova.ekvita::lang.menu.client'
+                url: nova/ekvita/clientcontroller
+                icon: icon-slack
+                permissions:
+                    - manage_client
+            side-menu-item5:
+                label: 'nova.ekvita::lang.menu.projectsinvolved'
+                url: nova/ekvita/projectsinvolvedcontroller
+                icon: icon-compress
+                permissions:
+                    - manage_projectsinvolved
+            side-menu-item6:
+                label: 'nova.ekvita::lang.menu.news'
+                url: nova/ekvita/newscontroller
+                icon: icon-newspaper-o
+                permissions:
+                    - manage_news
+            side-menu-item7:
+                label: 'nova.ekvita::lang.menu.event'
+                url: nova/ekvita/eventcontroller
+                icon: icon-connectdevelop
+                permissions:
+                    - manage_event

@@ -1,0 +1,15 @@
+columns:
+    title:
+        label: 'nova.ekvita::lang.news.title'
+        type: text
+        searchable: true
+        sortable: true
+    category:
+        label: 'nova.ekvita::lang.news.category'
+        type: text
+        select: name
+        relation: category
+    image:
+        label: 'nova.ekvita::lang.news.image'
+        type: partial
+        path: ~/plugins/nova/ekvita/models/news/_image_column.htm

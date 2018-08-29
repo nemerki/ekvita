@@ -1,0 +1,22 @@
+fields:
+    title:
+        label: 'nova.ekvita::lang.slider.title'
+        span: auto
+        type: text
+    is_active:
+        label: 'nova.ekvita::lang.all.status'
+        options:
+            - Deactive
+            - Active
+        span: auto
+        default: '1'
+        type: dropdown
+    image:
+        label: 'nova.ekvita::lang.slider.image'
+        mode: image
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: full
+        type: fileupload

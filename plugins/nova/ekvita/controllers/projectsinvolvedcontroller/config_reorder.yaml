@@ -1,0 +1,5 @@
+title: ProjectsInvolvedController
+modelClass: Nova\Ekvita\Models\ProjectsInvolved
+nameFrom: title
+toolbar:
+    buttons: reorder_toolbar

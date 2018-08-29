@@ -1,0 +1,10 @@
+name: ProjectsInvolvedController
+form: $/nova/ekvita/models/projectsinvolved/fields.yaml
+modelClass: Nova\Ekvita\Models\ProjectsInvolved
+defaultRedirect: nova/ekvita/projectsinvolvedcontroller
+create:
+    redirect: 'nova/ekvita/projectsinvolvedcontroller/update/:id'
+    redirectClose: nova/ekvita/projectsinvolvedcontroller
+update:
+    redirect: nova/ekvita/projectsinvolvedcontroller
+    redirectClose: nova/ekvita/projectsinvolvedcontroller

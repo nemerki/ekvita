@@ -1,0 +1,10 @@
+name: StandardController
+form: $/nova/ekvita/models/standard/fields.yaml
+modelClass: Nova\Ekvita\Models\Standard
+defaultRedirect: nova/ekvita/standardcontroller
+create:
+    redirect: 'nova/ekvita/standardcontroller/update/:id'
+    redirectClose: nova/ekvita/standardcontroller
+update:
+    redirect: nova/ekvita/standardcontroller
+    redirectClose: nova/ekvita/standardcontroller

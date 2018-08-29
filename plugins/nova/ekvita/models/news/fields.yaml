@@ -1,0 +1,40 @@
+fields:
+    is_active:
+        label: 'nova.ekvita::lang.all.status'
+        span: auto
+        default: 1
+        type: switch
+    is_home:
+        label: 'nova.ekvita::lang.all.home'
+        span: auto
+        type: switch
+    title:
+        label: 'nova.ekvita::lang.news.title'
+        span: auto
+        type: text
+    category:
+        label: 'nova.ekvita::lang.news.category'
+        nameFrom: name
+        descriptionFrom: description
+        span: auto
+        type: relation
+    published:
+        label: 'nova.ekvita::lang.news.published'
+        mode: datetime
+        span: full
+        default: now
+        type: datepicker
+    content:
+        label: 'nova.ekvita::lang.news.content'
+        size: ''
+        span: full
+        type: richeditor
+    image:
+        label: 'nova.ekvita::lang.news.image'
+        span: full
+        mode: image
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        type: fileupload

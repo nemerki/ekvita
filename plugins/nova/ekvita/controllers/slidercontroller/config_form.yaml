@@ -1,0 +1,10 @@
+name: SliderController
+form: $/nova/ekvita/models/slider/fields.yaml
+modelClass: Nova\Ekvita\Models\Slider
+defaultRedirect: nova/ekvita/slidercontroller
+create:
+    redirect: 'nova/ekvita/slidercontroller/update/:id'
+    redirectClose: nova/ekvita/slidercontroller
+update:
+    redirect: nova/ekvita/slidercontroller
+    redirectClose: nova/ekvita/slidercontroller

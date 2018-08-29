@@ -1,0 +1,19 @@
+fields:
+    is_active:
+        label: 'nova.ekvita::lang.all.status'
+        span: full
+        default: 1
+        type: switch
+    name:
+        label: 'nova.ekvita::lang.testimonial.name'
+        span: auto
+        type: text
+    company:
+        label: 'nova.ekvita::lang.testimonial.company'
+        span: auto
+        type: text
+    content:
+        label: 'nova.ekvita::lang.testimonial.content'
+        size: ''
+        span: full
+        type: textarea

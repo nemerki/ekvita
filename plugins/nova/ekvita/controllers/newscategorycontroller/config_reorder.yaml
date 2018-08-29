@@ -1,0 +1,5 @@
+title: NewsCategoryController
+modelClass: Nova\Ekvita\Models\NewsCategory
+nameFrom: name
+toolbar:
+    buttons: reorder_toolbar

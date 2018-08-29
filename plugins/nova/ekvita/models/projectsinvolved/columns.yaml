@@ -1,0 +1,10 @@
+columns:
+    title:
+        label: 'nova.ekvita::lang.projects_involved.title'
+        type: text
+        searchable: true
+        sortable: true
+    image:
+        label: 'nova.ekvita::lang.projects_involved.image'
+        type: partial
+        path: ~/plugins/nova/ekvita/models/projectsinvolved/_image_column.htm

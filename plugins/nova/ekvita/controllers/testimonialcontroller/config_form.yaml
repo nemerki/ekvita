@@ -1,0 +1,10 @@
+name: TestimonialController
+form: $/nova/ekvita/models/testimonial/fields.yaml
+modelClass: Nova\Ekvita\Models\Testimonial
+defaultRedirect: nova/ekvita/testimonialcontroller
+create:
+    redirect: 'nova/ekvita/testimonialcontroller/update/:id'
+    redirectClose: nova/ekvita/testimonialcontroller
+update:
+    redirect: nova/ekvita/testimonialcontroller
+    redirectClose: nova/ekvita/testimonialcontroller

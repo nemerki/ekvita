@@ -1,0 +1,10 @@
+name: NewsController
+form: $/nova/ekvita/models/news/fields.yaml
+modelClass: Nova\Ekvita\Models\News
+defaultRedirect: nova/ekvita/newscontroller
+create:
+    redirect: 'nova/ekvita/newscontroller/update/:id'
+    redirectClose: nova/ekvita/newscontroller
+update:
+    redirect: nova/ekvita/newscontroller
+    redirectClose: nova/ekvita/newscontroller

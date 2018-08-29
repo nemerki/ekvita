@@ -1,0 +1,6 @@
+columns:
+    name:
+        label: 'nova.ekvita::lang.news_category.name'
+        type: text
+        searchable: true
+        sortable: true

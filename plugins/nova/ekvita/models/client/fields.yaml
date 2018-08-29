@@ -1,0 +1,23 @@
+fields:
+    is_active:
+        label: 'nova.ekvita::lang.all.status'
+        span: full
+        default: 1
+        type: switch
+    name:
+        label: 'nova.ekvita::lang.client.name'
+        span: full
+        type: text
+    link:
+        label: 'nova.ekvita::lang.client.link'
+        span: full
+        type: text
+    logo:
+        label: 'nova.ekvita::lang.client.logo'
+        mode: image
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: full
+        type: fileupload

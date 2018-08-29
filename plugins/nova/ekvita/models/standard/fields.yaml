@@ -1,0 +1,22 @@
+fields:
+    name:
+        label: 'nova.ekvita::lang.standard.name'
+        span: auto
+        type: text
+    is_active:
+        label: 'nova.ekvita::lang.all.status'
+        options:
+            - Deactive
+            - Active
+        span: auto
+        default: '1'
+        type: dropdown
+    logo:
+        label: 'nova.ekvita::lang.standard.logo'
+        span: auto
+        mode: image
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        type: fileupload

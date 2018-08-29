@@ -1,0 +1,10 @@
+name: EventController
+form: $/nova/ekvita/models/event/fields.yaml
+modelClass: Nova\Ekvita\Models\Event
+defaultRedirect: nova/ekvita/eventcontroller
+create:
+    redirect: 'nova/ekvita/eventcontroller/update/:id'
+    redirectClose: nova/ekvita/eventcontroller
+update:
+    redirect: nova/ekvita/eventcontroller
+    redirectClose: nova/ekvita/eventcontroller
